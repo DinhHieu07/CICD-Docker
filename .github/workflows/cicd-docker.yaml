@@ -32,7 +32,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: dinhhieu07/ex4-cicd-docker:latest  # Thay bằng username của bạn
+          tags: dinhhieu3007/ex4-cicd-docker:latest  # Thay bằng username của bạn
 
   deploy:
     name: Deploy to Server
